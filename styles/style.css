@@ -55,13 +55,6 @@ header {
     word-spacing: 0.1em;
 }
 
-/*
-#website-navigation li:nth-child(-n+3){
-    border-right: 2px solid rgb(209, 209, 209);
-    padding-right: 0.3em;
-}
-*/
-
 #website-navigation li {
 
     border-radius: 4px;
