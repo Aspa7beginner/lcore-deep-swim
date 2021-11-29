@@ -35,6 +35,14 @@ a {
     text-decoration:none;
 }
 
+a:visited {
+    color: inherit;
+}
+
+a:link {
+    color: inherit;
+}
+
 p{
     font-size: 0.95em;
 }
@@ -63,14 +71,6 @@ header {
     font-weight: bold;
     padding:0.5%;
     margin: 0.3% 0.2%;
-}
-
-#website-navigation a:visited {
-    color: inherit;
-}
-
-#website-navigation a:link {
-    color: inherit;
 }
 
 #website-navigation a:hover {
@@ -149,10 +149,6 @@ main a:visited{
 
 .webpage-navigation a:hover{
     font-weight: 600;
-}
-
-section a:link {
-    color: inherit;
 }
 
 h2 {
@@ -444,14 +440,6 @@ footer {
     background-image: url("../images/intro_backgrounds/footer_bg.jpg");     /* img-source: https://jooinn.com/img/get */
     background-size: cover;
     padding: 0%;
-}
-
-footer a:visited{
-    color:#dbdbdbe0;
-}
-
-footer a:link {
-    color:inherit;
 }
 
 #footer-content {
