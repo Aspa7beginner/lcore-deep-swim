@@ -72,6 +72,7 @@ header {
 #website-navigation a:link {
     color: inherit;
 }
+
 #website-navigation a:hover {
     font-weight: 600;
 }
@@ -93,13 +94,13 @@ h1 {
     font-size: 4em;
     text-align: center;
     vertical-align: middle;
-    margin-top:0.5em;
+    margin-top:1em;
     padding-top: 1.8em;
 }
 
 #comicT{
     color:rgba(253, 253, 253, 0.795);
-    margin-top: 2%;
+    margin-top: 5%;
     text-align: center;
     text-shadow: 2px 3px rgb(28, 28, 36);
 }
@@ -452,6 +453,7 @@ footer a:visited{
 footer a:link {
     color:inherit;
 }
+
 #footer-content {
     background-color: rgba(4, 0, 0, 0.87);
     color: #dbdbdbe0;
