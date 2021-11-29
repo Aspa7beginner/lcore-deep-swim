@@ -43,7 +43,7 @@ p{
 
 /* Header customizations */
 header {
-    background-image: url('https://www.dropbox.com/s/bo9w7i1bd3j77xf/header_bg.webp?dl=1');
+    background-image: url("../images/intro_backgrounds/header_bg.webp");
     min-height: 100vh;
     background-size: cover;
     padding: 1em 1em 0 2em;
@@ -51,16 +51,13 @@ header {
 
 #website-navigation ul{
     text-align: right;
-    color: rgb(253, 253, 253);
+    color: rgb(209, 209, 209);
     word-spacing: 0.1em;
 }
 
 #website-navigation li:nth-child(-n+3){
     border-right: 2px solid rgb(209, 209, 209);
-}
-
-#website-navigation li{
-    padding-right: 1%;
+    padding-right: 0.3em;
 }
 
 #website-navigation a:visited {
@@ -70,13 +67,17 @@ header {
 #website-navigation a:active {
     color: inherit;
 }
+
+#website-navigation a:link {
+    color: inherit;
+}
 #website-navigation a:hover {
     font-weight: 600;
 }
 
 h1 {
-    color:rgb(253, 253, 253);
-    font-size: 7.5vmin;
+    color:rgba(253, 253, 253, 0.925);
+    font-size: 4.5rem;
     text-align: center;
     vertical-align: middle;
     margin-top:0.5em;
@@ -107,7 +108,7 @@ h1 {
     display: inline-block;
     width: 45px;
     height: 45px;
-    background-image: url('https://www.dropbox.com/s/nxkr0jwtsv5vn3t/arrow_bottom.png?dl=1');
+    background-image: url("../images/icons/arrow_bottom.png");
     background-color:  rgba(255, 255, 255, 0.342);
     background-size: contain;
     border-radius:48%;
@@ -167,7 +168,7 @@ p {
 
 /* Introduction styling */
 #intro {
-    background-image: url('https://www.dropbox.com/s/0n12wcgwzx6x53d/intro_bg.jpg?dl=1');
+    background-image: url("../images/intro_backgrounds/intro_bg.jpg");
     background-size: cover;
 }
 
@@ -203,7 +204,7 @@ p {
 
 /* Project section styling */
 #projects {
-    background-image:  url('https://www.dropbox.com/s/yglf7jx7qajzy6n/projects_bg.jpg?dl=1');
+    background-image:  url("../images/intro_backgrounds/projects_bg.jpg");
     background-size: cover;
 
 }
@@ -276,7 +277,7 @@ p {
 
 /* data sources section styling */
 #data-sources {
-    background-image: url('https://www.dropbox.com/s/kcwwxch7twomguh/data_sources_bg.jpg?dl=1');
+    background-image: url("../images/intro_backgrounds/data_sources_bg.jpg");
     background-size: cover;
 }
 
@@ -352,7 +353,7 @@ p {
     width: 24px;
     height: 24px;
     vertical-align: bottom;
-    background-image: url('https://www.dropbox.com/s/dk8wibpazd9w8hx/external-link-24.png?dl=1');
+    background-image: url("../images/icons/external-link-24.png");
     background-size: contain;
 }
 /* END: data sources section styling */
@@ -362,7 +363,7 @@ p {
 
 /* computational resources section styling */
 #frameworks {
-    background-image: url('https://www.dropbox.com/s/0fviajwb8u1rono/computational-resources.jpg?dl=1');
+    background-image: url("../images/intro_backgrounds/computational-resources.jpg");
     background-size: cover;
 
 }
@@ -434,7 +435,7 @@ p {
 
 /*footer styling */
 footer {
-    background-image: url("https://www.dropbox.com/s/066da7op7l9gah1/footer_bg.jpg?dl=1");
+    background-image: url("../images/intro_backgrounds/footer_bg.jpg");
     background-size: cover;
     padding: 0%;
 }
@@ -461,7 +462,7 @@ footer h2 {
     display: inline-block;
     width: 45px;
     height: 45px;
-    background-image: url('https://www.dropbox.com/s/s1znqdn6xjicyis/arrow_top.png?dl=1');
+    background-image: url("../images/icons/arrow_top.png");
     background-color:  #2e737a;
     background-size: contain;
     border-radius:48%;
@@ -494,23 +495,23 @@ footer h2 {
 }
 
 #facebook {
-    background-image: url('https://www.dropbox.com/s/ka8f0uzvzk9ytng/facebook_icon_small.png?dl=1');
+    background-image: url("../images/icons/facebook_icon_small.png");
 }
 
 #linkedin {
-    background-image: url('https://www.dropbox.com/s/ujf1iqjsi6h28r7/linkedin_icon_small.png?dl=1');
+    background-image: url("../images/icons/linkedin_icon_small.png");
 }
 
 #github {
-    background-image: url('https://www.dropbox.com/s/d98vgjxnl8s3muw/github_icon_small.png?dl=1');
+    background-image: url("../images/icons/github_icon_small.png");
 }
 
 #docker {
-    background-image: url('https://www.dropbox.com/s/31ue6cce1x2g3il/docker_icon_small.png?dl=1');
+    background-image: url("../images/icons/docker_icon_small.png");
 }
 
 #reddit {
-    background-image: url('https://www.dropbox.com/s/auing2c2m7vgpp3/reddit_icon_small.png?dl=1');
+    background-image: url("../images/icons/reddit_icon_small.png");
 }
 
 #misc {
