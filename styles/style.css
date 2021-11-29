@@ -69,10 +69,9 @@ header {
     color: inherit;
 }
 
-#website-navigation a:active {
+#website-navigation a:link {
     color: inherit;
 }
-
 #website-navigation a:hover {
     font-weight: 600;
 }
@@ -450,6 +449,9 @@ footer a:visited{
     color:#dbdbdbe0;
 }
 
+footer a:link {
+    color:inherit;
+}
 #footer-content {
     background-color: rgba(4, 0, 0, 0.87);
     color: #dbdbdbe0;
@@ -576,12 +578,5 @@ footer h2 {
     padding-top: 1em;
 }
 
-#misc a:active {
-    color: inherit;
-}
-
-#misc a:visited {
-    color: inherit;
-}
 
 /* END: footer styling */
