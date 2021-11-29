@@ -575,4 +575,13 @@ footer h2 {
     opacity: 40%;
     padding-top: 1em;
 }
+
+#misc a:active {
+    color: inherit;
+}
+
+#misc a:visited {
+    color: inherit;
+}
+
 /* END: footer styling */
