@@ -43,7 +43,7 @@ p{
 
 /* Header customizations */
 header {
-    background-image: url("../images/intro_backgrounds/header_bg.webp");
+    background-image: url("../images/intro_backgrounds/header_bg.webp"); /*img source: https://wallpapersafari.com/w/pNHxwB*/
     min-height: 100vh;
     background-size: cover;
     padding: 1em 1em 0 2em;
@@ -204,7 +204,7 @@ p {
 
 /* Project section styling */
 #projects {
-    background-image:  url("../images/intro_backgrounds/projects_bg.jpg");
+    background-image:  url("../images/intro_backgrounds/projects_bg.jpg"); /* img-source:https://www.google.com/search?tbs=simg:CAQS9gEJoo5yMPYOs4Aa6gELELCMpwgaOgo4CAQSFJQZpQuxEZEeozPZCbYz2xm2E6M5GhoLH_1wOp2ix5uiEDNEuigMHajbERpgUXlUqviAFMAQMCxCOrv4IGgoKCAgBEgRLmiBZDAsQne3BCRqKAQoWCgNkb3TapYj2AwsKCS9tLzAyN2N0ZwobCghsYW5ndWFnZdqliPYDCwoJL2ovMnNoX3k0ChsKCHZlcnRpY2Fs2qWI9gMLCgkvYS80aGgzcDAKHQoKaG9yaXpvbnRhbNqliPYDCwoJL2EvMm1xdnpjChcKBG1lc2japYj2AwsKCS9tLzA0MTN5Mww,isz:l&q=white+abstract+4k+hd&tbm=isch&sa=X&ved=2ahUKEwjb9I2A7b30AhWx7rsIHS5zCqgQ2A4oA3oECAEQNQ&biw=1920&bih=929&dpr=1#imgrc=fFjhVXjxHsj6NM */
     background-size: cover;
 
 }
@@ -273,11 +273,9 @@ p {
 /* END: Project section styling */
 
 
-
-
 /* data sources section styling */
 #data-sources {
-    background-image: url("../images/intro_backgrounds/data_sources_bg.jpg");
+    background-image: url("../images/intro_backgrounds/data_sources_bg.jpg"); /*img source: https://wallpapersafari.com/w/F3oqhY */
     background-size: cover;
 }
 
@@ -363,7 +361,7 @@ p {
 
 /* computational resources section styling */
 #frameworks {
-    background-image: url("../images/intro_backgrounds/computational-resources.jpg");
+    background-image: url("../images/intro_backgrounds/computational-resources.jpg"); /*img-source: https://image.cardspace.at/image.asp?guid={C2ABA977-6BDB-422A-BCA6-B194521341BD}&width=2560&smart=1&quality=45&cache=1*/
     background-size: cover;
 
 }
@@ -435,7 +433,7 @@ p {
 
 /*footer styling */
 footer {
-    background-image: url("../images/intro_backgrounds/footer_bg.jpg");
+    background-image: url("../images/intro_backgrounds/footer_bg.jpg");     /* img-source: https://jooinn.com/img/get */
     background-size: cover;
     padding: 0%;
 }
