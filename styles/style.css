@@ -52,7 +52,7 @@ p{
 /* Header customizations */
 header {
     background-image: url("../images/intro_backgrounds/header_bg.webp"); /*img source: https://wallpapersafari.com/w/pNHxwB*/
-    min-height: 100vh;
+    min-height: 100vh; /* full window viewpoint */
     background-size: cover;
     padding: 1em 1em 0 2em;
 }
@@ -60,7 +60,6 @@ header {
 #website-navigation ul{
     text-align: right;
     color: rgb(209, 209, 209);
-    word-spacing: 0.1em;
 }
 
 #website-navigation li {
@@ -68,13 +67,12 @@ header {
     border-radius: 4px;
     background-color: rgba(88, 188, 130);
     color: rgba(4,4,4);
-    font-weight: bold;
     padding:0.5%;
     margin: 0.3% 0.2%;
 }
 
 #website-navigation a:hover {
-    font-weight: 600;
+    color:#c9e4d9;
 }
 
 #smart-search{
@@ -84,16 +82,13 @@ header {
 #smart-search [title]{
     max-width: 1.2rem;
     padding: 0.5em;
-    background-color: rgba(88, 188, 130, 0.904);
-    background-size: cover;
-    
+    background-color: rgba(88, 188, 130, 0.904); /* since imgs have transparent backgrounds*/
 }
 
 h1 {
     color:rgba(253, 253, 253, 0.925);
     font-size: 4em;
     text-align: center;
-    vertical-align: middle;
     margin-top:1em;
     padding-top: 1.8em;
 }
@@ -543,7 +538,7 @@ footer h2 {
 
 #social span:last-of-type{
     display: block;
-    margin:o.5% 0 0 0;
+    margin: 0.5% 0 0 0;
     padding:0%;
     color:inherit;
     opacity: 50%;
@@ -568,5 +563,7 @@ footer h2 {
     padding-top: 1em;
 }
 
-
+#misc a:last-child{
+    text-decoration: underline;
+}
 /* END: footer styling */
