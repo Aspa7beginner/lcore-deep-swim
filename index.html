@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Deep Learning Portfolio</title>
+        <link rel="stylesheet" href="styles/style.css"> <!--Αλλαγή href από styles/style.css to style.css για τα παραδοτέα-->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="page top"></div>
+        <header>
+            <nav id="website-navigation">
+                <div id="smart-search">
+                    <img src="images/icons/icons8-search-60.png" title="search" alt="search">
+                    <img src="images/icons/microphone-60.png" title="mic" alt="mic">
+                </div>
+
+                <ul>
+                    <li><a href="#">Inroduction</a></li>
+                    <li><a href="#">Computer Vision</a></li>
+                    <li><a href="#">Natural Language Processing</a></li>
+                    <li><a href="#">Recomender Systems</a></li>
+                </ul>
+            </nav>
+
+            <h1>A Deep Learing Tour</h1>
+            <p id="comicT">a pleasant trip or an ordeal...?</p>
+
+            <span id="to-introduction"><a href="#intro" title="introduction"></a></span>
+        </header>
+
+        <main>
+            <article>
+                <section id="intro">
+                    <div id="intro-content">
+                        <nav class="webpage-navigation">
+                            <ul>
+                                <li><a href="#page top">Top</a><span> |</span></li>
+                                <li><a href="#intro">Intro</a><span> |</span></li>
+                                <li><a href="#projects">Projects</a><span> |</span></li>
+                                <li><a href="#data-sources">Data Sources</a><span> |</span></li>
+                                <li><a href="#frameworks">Frameworks &amp Resources</a><span> |</span></li>
+                                <li><a href="#footer-content">Site Walkthrough</a></li> 
+                            </ul>
+                        </nav>
+                        <h2>First Things First</h2>
+                        <p>
+                            Comprehending the latest advances in Artificial Intelligence (AI) may be 
+                            considered a difficult task, however if it's about learning the basics, it mainly
+                            comes down to two concepts: <strong>machine learning</strong> and <strong>deep learning</strong>.
+                            With the second being a subset of the first, there are obviously similarities between them,
+                            however there are important differences as well.
+                        </p>
+                        <p>    
+                            Two of the main differences are the way they implement the learning process,
+                            as well as characteristics of the input that feeds the models. 
+                            While both include a set of algorithms that parse data, learn from them
+                            and apply the knowledge they've gained in making informed decisions, machine learning 
+                            models may still need human intervention when the results are not accurate. On the other hand, 
+                            deep learning ones try to find out the mistakes and improve them on their own. Also, machine learning models
+                            rely heavily on data feature extraction in order to make relevant and correct predictions, while deep 
+                            learning models discover the patterns in data while training.
+                        </p>
+                        <p>
+                            With that in mind, this site will serve as a portfolio of deep learning models and applications. The goal is 
+                            to demonstrate the ways, I will try to develop and implement some models all through the year. 
+                            This blogpost starts with a description of resources, tools and methods used for the projects in discussion. 
+                            Afterwards, there is a short summary for each project. By the end, the post offers a short walkthrough of the 
+                            website.
+                        </p>
+                        <p>    
+                            It is evident, by the description of their functionality alone, that the successful implementation of those models 
+                            can lead to innovative ideas in many fields and across a variety of industries. There is already a plethora of 
+                            applications that depend on deep learning. Those have led to great amounts of automation,
+                            so, it could be said that investing time in studying and practicing deep learning 
+                            won't be unrewarding nor boring.
+                        </p>
+                    </div>
+                </section>
+
+                <section id="projects">
+                    <div id="projects-content">
+                        <nav class="webpage-navigation">
+                            <ul>
+                                <li><a href="#page top">Top</a><span> |</span></li>
+                                <li><a href="#intro">Intro</a><span> |</span></li>
+                                <li><a href="#projects">Projects</a><span> |</span></li>
+                                <li><a href="#data-sources">Data Sources</a><span> |</span></li>
+                                <li><a href="#frameworks">Frameworks &amp Resources</a><span> |</span></li>
+                                <li><a href="#footer-content">Site Walkthrough</a></li> 
+                            </ul>
+                        </nav>
+                        <h2>Projects</h2>
+                        <p>The projects are going to be from the main areas of deep learning applications.
+                                The main idea is to explore each one of them. By the end of the year, after getting an 
+                                idea of all domains, I plan to focus more on recommender systems. 
+                        </p>
+                        <div class="proj-desc">
+                            <h3>Grapevine Disease Classification</h3>
+                            <p> 
+                                The first project on the list is to make a system that can guess 
+                                the diseases of grapevines based on images of leaves entered by the user.
+                                The image classification will be performed by considering the AlexNet architecture
+                                (other architectures may be tested later on, for comparing results). 
+                                There are two options. One is to use the pre-trained AlexNet from PyTorch Hub 
+                                and then use transfer learning for grapevine's case. The other one is to train the AlexNet 
+                                on the PlantVillage dataset and later on to use transfer learning on data found on EdenLibrary. 
+                                More on the project on the respective page.
+                                <span class="footnote">(CNN Application)</span>
+                            </p>
+                        </div>
+                        <div class="proj-desc">
+                            <h3>Trigger Word Detection <br/>for Site Navigation</h3>
+                            <p>
+                                Ok so this a project that belongs in the category of sequential models. The plan is for 
+                                to navigate to this website based on an audio command given by the user. So the model 
+                                needs to recognize the word sequence the user gives and navigate to the corresponding webpage.
+                                For instance, if the user wants to check the CNN's page, they need to record the word "cnn". 
+                                The model to be trained is an unidirectional RNN (more details on its architecture on the respective
+                                page) with a custom-made audio dataset. This project is one of the most challenging ones because it
+                                requires data synthesis, not a field I'm not accustomed to. It will be fun!
+                                <span class="footnote">(RNN Application)</span>
+                            </p>
+                        </div>
+                        <div class="proj-desc">
+                            <h3>Pesticide Recommendation</h3>
+                            <p>
+                                The goal is to build a system that recommends the user which pesticide to use
+                                in order to deal with plant diseases. The input data could vary and their acquisition is 
+                                still in progress. They could be geological data, humidity, weather conditions etc. Also the 
+                                model in use hasn't been decided yet. More on this, comes later.
+                                <span class="footnote">(Recomender System Application)</span>
+                            </p>
+                        </div>
+                        <div class="proj-desc">
+                            <h3>And more...?</h3>
+                            <p>
+                                There will some additional projects, but not until the completion of the ones 
+                                mentioned above.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="data-sources">
+                    <div id="datasrc-content">
+                        <nav class="webpage-navigation">
+                            <ul>
+                                <li><a href="#page top">Top</a><span> |</span></li>
+                                <li><a href="#intro">Intro</a><span> |</span></li>
+                                <li><a href="#projects">Projects</a><span> |</span></li>
+                                <li><a href="#data-sources">Data Sources</a><span> |</span></li>
+                                <li><a href="#frameworks">Frameworks &amp Resources</a><span> |</span></li>
+                                <li><a href="#footer-content">Site Walkthrough</a></li> 
+                            </ul>
+                        </nav>
+                        <h2>Data Sources</h2>
+                        <p>
+                            It’s a fact that deep learning algorithms need huge amounts of data for the training process alone. 
+                            Finding the datasets needed becomes a challenge as many of them are not available to the public. 
+                            Even so, there can be found data on some sites for free. Assisting with the research is the 
+                            <a href="https://www.reddit.com/r/datasets" target="_blank" rel="noopener noreferrer">/r/datasets</a> 
+                            community on reddit, as well as the <a href="https://datasetsearch.research.google.com" target="_blank" rel="noopener noreferrer">Dataset Search Engine</a> provided by Google. 
+                            As for individual sites, some used for my projects are the following: 
+                        </p> 
+                        <div class="source-desc">                    
+                            <h3>kaggle<a href="https://www.kaggle.com" target="_blank" rel="noopener noreferrer"><span class="hyperlink-icon"></span></a></h3>
+                            <p>
+                                Through Kaggle users can find and publish datasets and explore and build models in a web-based environment. 
+                                Some datasets used for projects are pre-processed images, since there is a vast community that supports and prepares 
+                                them for training models. For instance, for the Grape Diseases Classification, currently in development,
+                                I use the plant-village dataset which contains over 150k images of 38 plant disease categories.
+                            </p>
+                        </div>
+                        <div class="source-desc">
+                        <h3>Eden Library<a href="https://edenlibrary.ai" target="_blank" rel="noopener noreferrer"><span class="hyperlink-icon"></span></a></h3>
+                            <p>
+                                Eden Library provides users with high quality plant datasets. The images are mainly useful 
+                                for AI applications in smart farming and agriculture. There are datasets with pre-processed
+                                with pre-processed images or raw ones. They provide free and premium datasets. For example, datasets
+                                of grape diseases are used for validation and testing in the Image Classification project.
+                            </p>
+                        </div>
+                        <div class="source-desc">
+                            <h3>data.world<a href="https://data.world/datasets/open-data" target="_blank" rel="noopener noreferrer"><span class="hyperlink-icon"></span></a></h3>
+                            <p>
+                                data.world is a place that allows its users for search for, analyze, download as well as upload datasets.
+                                Lots of the contributed data are contributed through their partnerships with various organizations.
+                                However, those privileges, apart from 3 datasets with a community account, do not come for free. 
+                                I plan to search and use audio data from this site, but I am not sure yet.
+                            </p>
+                        </div>
+                        <div class="source-desc">
+                            <h3>Academic Torrents<a href="https://academictorrents.com" target="_blank" rel="noopener noreferrer"><span class="hyperlink-icon"></span></a></h3>
+                            <p>
+                                This site is dedicated to sharing data sets from scientific papers. It is relatively new, but is has
+                                a great number of interesting datasets. Articles is one of the types that I am most interested about.
+                            </p>
+                        </div>             
+                    </div>
+                </section>
+
+                <section id="frameworks">
+                    <div id="frameworks-content">
+                        <nav class="webpage-navigation">
+                            <ul>
+                                <li><a href="#page top">Top</a> |</li>
+                                <li><a href="#intro">Intro</a> |</li>
+                                <li><a href="#projects">Projects</a> |</li>
+                                <li><a href="#data-sources">Data Sources</a> |</li>
+                                <li><a href="#frameworks">Frameworks &amp Resources</a> |</li>
+                                <li><a href="#footer-content">Site Walkthrough</a></li> 
+                            </ul>
+                        </nav>
+                        <h2>Frameworks and Libraries for Development</h2>
+                        <p> 
+                            I program in python, a language vastly used in machine learning. As for frameworks which make the job of 
+                            a machine learning engineer easier and the sites that provide remote 
+                            the high in demand computational power for training, I chose the following:    
+                        </p>
+                        <div class="frworks-desc">
+                            <h3>PyTorch</h3>
+                            <p> 
+                                There are two frameworks I've mainly used, tensorflow and pytorch. 
+                                The first is popular in production and was developed by Google for internal use, 
+                                however, the second one is faster and easier to use. 
+                                Pytorch allows computations on tensors like tensorflow and intergrades with the python
+                                data science stack (like numpy). The plan is to eventually move to tensorflow which 
+                                supports keras (library dedicated to the development of deep learning
+                                architectures), but PyTorch is a to go at the moment.
+                            </p>
+                        </div>
+                        <div  class="frworks-desc">
+                            <h3>Google Collab</h3>
+                            <p>
+                                Google Collaboratory is a product from Google Research. It allows users to write and execute
+                                python code through jupyter notebooks well suited for deep learning. It does not require setup 
+                                and provides free access to computing resources and more importantly GPUs. But there are limitations 
+                                to its use because the resources are distributed dynamically through different users, so it may be
+                                difficult to maintain them for long computations. This is a problem for deep learning model which use
+                                big amount of data for their training.
+                            </p>
+                        </div>
+                        <div  class="frworks-desc">
+                            <h3>Paperspace</h3>
+                            <p>
+                                Paperspace is a cloud platform that lets users to use computational resources for their
+                                machine learning projects including GPUs. The problem is that the free subscription allows
+                                little usage of CPUs and limited runtime at max six hours. It is somewhat slow
+                                as there are two server locations, but it's a start.
+                            </p>
+                        </div>
+                    </divn>
+                </section>
+            </article>
+        </main>
+
+        <footer>
+            <div id="footer-content">
+                <span id="back-to-top"><a href="#top" title="top"></a></span>
+
+                <section id="reaction">
+                    <span id="like"><a href='#' title="pleasant trip"></a></span>
+                    <span id="dislike"><a href='#' title="ordeal"></a></span>
+                </section>
+
+                <section id="site-walkthrough">
+                    <h2>Site In A Nutshell</h2>
+                    <p>
+                        Each page on the navigation menu contains thorough descriptions of the developed projects. Interfaces which
+                        let the user insert the data needed to demonstrate the capabilities of each model will also be included. 
+                        In addition, there will be code embeddings available on github. Finally, there is a plan to include links 
+                        to docker containers for running the models locally.
+                    </p>
+                    <p>
+                        An additional feature is the functionality of the search bar on the top right part
+                        of the site. By selecting the microphone there user can select a page to vagitabe by 
+                        saying its name. The RNN trigger word model will be used for this feature. Until now 
+                        the search bar isn't even a search bar...
+                    </p>
+                    <p>
+                        That's it! I think that the site doesn't lack imagination, 
+                        but the implementation of the ideaspresented, is quite challenging. 
+                        I hope for the result to be rewarding.
+                    </p>
+                </section>
+                <section id="social">
+                    <span class="social-link" id="linkedin"><a href='#'></a></span>
+                    <span class="social-link" id="facebook"><a href='#'></a></span>
+                    <span class="social-link" id="github"><a href='#'></a></span>
+                    <span class="social-link" id="reddit"><a href='#'></a></span>
+                    <span class="social-link" id="docker"><a href='#'></a></span>
+                    <span>Icons by <a href="https://icons8.com/">&copyIcons8</a></span>
+                </section>
+
+                <ul id="misc">
+                    <li>Copyright &copy</li>
+                    <li><a href="#">Cookie policy</a></li>
+                    <li><a href="#">Intro</a></li>
+                    <li>Started as a project for <a href="https://courses.e-ce.uth.gr/ECE9124/" title="e-ce.uth-ECE9124"><strong>ECE9124</strong></a></li>
+                </ul>   
+            </div>
+
+        </footer>
+    </body>
+</html>
