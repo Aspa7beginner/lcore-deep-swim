@@ -165,25 +165,21 @@ p {
 
 
 /* Introduction styling */
-#intro {
-    background-image: url("../images/intro_backgrounds/intro_bg.jpg");
-    background-size: cover;
-}
 
-#intro-content {
+#intro {
     max-width:1080px;
     min-height: 1080px;
     margin: auto;
     padding-top: 1.5em;
 }
 
-#intro-content h2{
+#intro h2{
     padding: 1em 0 0.5em 0;
     margin: 1em;
     border-color: rgb(7, 16, 39);
 }
 
-#intro-content p {
+#intro p {
     max-width: 90%;
     padding: 0 1em;
     margin: 1em;
@@ -191,7 +187,7 @@ p {
     line-height: 1.5em;
 }
 
-#intro-content p:first-of-type {
+#intro p:first-of-type {
     text-indent: 1em;
 }
 
@@ -202,31 +198,25 @@ p {
 
 /* Project section styling */
 #projects {
-    background-image:  url("../images/intro_backgrounds/projects_bg.jpg"); /* img-source:https://www.google.com/search?tbs=simg:CAQS9gEJoo5yMPYOs4Aa6gELELCMpwgaOgo4CAQSFJQZpQuxEZEeozPZCbYz2xm2E6M5GhoLH_1wOp2ix5uiEDNEuigMHajbERpgUXlUqviAFMAQMCxCOrv4IGgoKCAgBEgRLmiBZDAsQne3BCRqKAQoWCgNkb3TapYj2AwsKCS9tLzAyN2N0ZwobCghsYW5ndWFnZdqliPYDCwoJL2ovMnNoX3k0ChsKCHZlcnRpY2Fs2qWI9gMLCgkvYS80aGgzcDAKHQoKaG9yaXpvbnRhbNqliPYDCwoJL2EvMm1xdnpjChcKBG1lc2japYj2AwsKCS9tLzA0MTN5Mww,isz:l&q=white+abstract+4k+hd&tbm=isch&sa=X&ved=2ahUKEwjb9I2A7b30AhWx7rsIHS5zCqgQ2A4oA3oECAEQNQ&biw=1920&bih=929&dpr=1#imgrc=fFjhVXjxHsj6NM */
-    background-size: cover;
-
-}
-
-#projects-content {
     min-height: 1080px;
     padding: 1.5em;
     background-color: rgba(3, 7, 10, 0.87);
     color: #b4b4b4;
 }
 
-#projects-content nav a{
+#projects nav a{
     color: #8E9687;
     font-size: 1.1em;
 }
 
-#projects-content h2 {
+#projects h2 {
     padding: 0.2em 0;
     margin: 1em 1.2em;
     border-color: #665e5ebe;
     color: #cecbcb;
 }
 
-#projects-content > p {
+#projects > p {
     max-width: 70%;
     margin: 0 0 1em 2em;
     padding-bottom: 1em;
@@ -272,23 +262,18 @@ p {
 
 
 /* data sources section styling */
-#data-sources {
-    background-image: url("../images/intro_backgrounds/data_sources_bg.jpg"); /*img source: https://wallpapersafari.com/w/F3oqhY */
-    background-size: cover;
-}
-
-#datasrc-content {
+#datasrc {
     min-height: 1080px;
     padding: 1.5em 3em 3em 3em;
     background-color: #59363dd8;
     color: #e3d3d6e5;
 }
 
-#datasrc-content nav a{
+#datasrc nav a{
     color: #e3d3d6be;;
 }
 
-#datasrc-content h2 {
+#datasrc h2 {
     padding: 0.2em 0;
     margin: 1em 1.2em;
     border-color: #030101;
@@ -296,18 +281,18 @@ p {
     font-size: 1.7em;
 }
 
-#datasrc-content > p {
+#datasrc > p {
     max-width: 70%;
     margin: 0 0 1em 2em;
     padding-bottom: 1em;
     font-size: 1.03em;
 }
 
-#datasrc-content [href*="dataset"] {
+#datasrc [href*="dataset"] {
     color: #030101;
 }
 
-#datasrc-content a[href*="dataset"]:hover {
+#datasrc a[href*="dataset"]:hover {
     font-weight: 600;
 }
 
@@ -358,13 +343,9 @@ p {
 
 
 /* computational resources section styling */
+
+
 #frameworks {
-    background-image: url("../images/intro_backgrounds/computational-resources.jpg"); /*img-source: https://image.cardspace.at/image.asp?guid={C2ABA977-6BDB-422A-BCA6-B194521341BD}&width=2560&smart=1&quality=45&cache=1*/
-    background-size: cover;
-
-}
-
-#frameworks-content {
     min-height: 1080px;
     padding: 1.5em 3em 3em 3em;
     background-color: #040e1d4f;
@@ -372,13 +353,13 @@ p {
     color:rgb(0, 1, 14);
 }
 
-#frameworks-content > p {
+#frameworks > p {
     max-width: 60%;
     margin: 0 0 1em 2em;
     padding-bottom: 1em;
 }
 
-#frameworks-content h2 {
+#frameworks h2 {
     padding: 0.2em 0;
     margin: 1em 1.2em;
     border-color: rgba(77, 78, 94, 0.89);
