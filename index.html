@@ -3,11 +3,15 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Deep Learning Portfolio</title>
-    <link rel="stylesheet" href="styles/reset-styles.css">
-    <link rel="stylesheet" href="styles/style2.css">
+    <link rel="stylesheet" href="styles/reset-styles.css" />
+    <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-width: 600px)" />
+    <link rel="stylesheet" href="styles/tablet.css" media="screen and (min-width: 601px) and (max-width: 991px)" />
+    <link rel="stylesheet" href="styles/desktop.css" media="screen and (min-width: 769px)" />
     <!--Αλλαγή href από styles/style.css to style.css για τα παραδοτέα-->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
 </head>
 
 <body>
@@ -33,19 +37,25 @@
         <span id="to-introduction"><a href="#intro" title="introduction"></a></span>
     </header>
 
+    <nav class="webpage-navigation">
+        <ul>
+            <li><a href="#page top">Top</a><span> |</span></li>
+            <li><a href="#intro">Intro</a><span> |</span></li>
+            <li><a href="#projects">Projects</a><span> |</span></li>
+            <li><a href="#data-sources">Data Sources</a><span> |</span></li>
+            <li><a href="#frameworks">Frameworks &amp Resources</a><span> |</span></li>
+            <li><a href="#footer-content">Site Walkthrough</a></li>
+        </ul>
+    </nav>
+    
+    <aside>
+        <iframe src="https://www.youtube.com/embed/videoseries?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi" title="YouTube neural networks 3blue1brown" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>        
+        <iframe id="reddit-embed" src="https://www.redditmedia.com/r/MachineLearning/comments/r9io6e/d_simple_questions_thread/?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin" style="border: none;" scrolling="no"></iframe>
+        <iframe id="reddit-embed" src="https://www.fast.ai" sandbox="allow-scripts allow-same-origin" style="border: none;" scrolling="no"></iframe>
+    </aside>
     <main>
         <article>
             <section id="intro">
-                <nav class="webpage-navigation">
-                    <ul>
-                        <li><a href="#page top">Top</a><span> |</span></li>
-                        <li><a href="#intro">Intro</a><span> |</span></li>
-                        <li><a href="#projects">Projects</a><span> |</span></li>
-                        <li><a href="#data-sources">Data Sources</a><span> |</span></li>
-                        <li><a href="#frameworks">Frameworks &amp Resources</a><span> |</span></li>
-                        <li><a href="#footer-content">Site Walkthrough</a></li>
-                    </ul>
-                </nav>
                 <h2>First Things First</h2>
                 <p>
                     Comprehending the latest advances in Artificial Intelligence (AI) may be
@@ -89,16 +99,6 @@
 
             <section id="projects">
                 <div id="projects-content">
-                    <nav class="webpage-navigation">
-                        <ul>
-                            <li><a href="#page top">Top</a><span> |</span></li>
-                            <li><a href="#intro">Intro</a><span> |</span></li>
-                            <li><a href="#projects">Projects</a><span> |</span></li>
-                            <li><a href="#data-sources">Data Sources</a><span> |</span></li>
-                            <li><a href="#frameworks">Frameworks &amp Resources</a><span> |</span></li>
-                            <li><a href="#footer-content">Site Walkthrough</a></li>
-                        </ul>
-                    </nav>
                     <h2>Projects</h2>
                     <p>The projects are going to be from the main areas of deep learning applications.
                         The main idea is to explore each one of them. By the end of the year, after getting an
@@ -156,16 +156,6 @@
             </section>
 
             <section id="data-sources">
-                <nav class="webpage-navigation">
-                    <ul>
-                        <li><a href="#page top">Top</a><span> |</span></li>
-                        <li><a href="#intro">Intro</a><span> |</span></li>
-                        <li><a href="#projects">Projects</a><span> |</span></li>
-                        <li><a href="#data-sources">Data Sources</a><span> |</span></li>
-                        <li><a href="#frameworks">Frameworks &amp Resources</a><span> |</span></li>
-                        <li><a href="#footer-content">Site Walkthrough</a></li>
-                    </ul>
-                </nav>
                 <h2>Data Sources</h2>
                 <p>
                     It’s a fact that deep learning algorithms need huge amounts of data for the training process alone.
@@ -226,16 +216,6 @@
             </section>
 
             <section id="frameworks">
-                <nav class="webpage-navigation">
-                    <ul>
-                        <li><a href="#page top">Top</a> |</li>
-                        <li><a href="#intro">Intro</a> |</li>
-                        <li><a href="#projects">Projects</a> |</li>
-                        <li><a href="#data-sources">Data Sources</a> |</li>
-                        <li><a href="#frameworks">Frameworks &amp Resources</a> |</li>
-                        <li><a href="#footer-content">Site Walkthrough</a></li>
-                    </ul>
-                </nav>
                 <h2>Frameworks and Libraries for Development</h2>
                 <p>
                     I program in python, a language vastly used in machine learning. As for frameworks which make the
